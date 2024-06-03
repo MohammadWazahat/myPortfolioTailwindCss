@@ -3,8 +3,8 @@ import "./MyResume.css";
 
 const MyResume = () => {
   return (
-    <div>
-      <div className="flex justify-end mx-10">
+    <div className="py-16">
+      <div className="flex justify-end mx-20">
         <button className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3">Download My Resume</button>
       </div>
       <div className="my-10 text-xl text-center text-green-200">
