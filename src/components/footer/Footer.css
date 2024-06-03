@@ -1,0 +1,25 @@
+.myFooterBox{
+  background-color: #090630;
+  color: aliceblue;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 30px;
+  margin-top: 100px;
+
+}
+.footer div {
+  display: flex;
+  justify-content: center;
+  padding: 7px 3px;
+}
+
+@media screen and (min-width: 1040px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
