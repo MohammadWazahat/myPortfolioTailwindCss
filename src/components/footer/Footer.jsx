@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="myFooterBox">
       <section>
-        <div class="footer">
+        <div class="footer ">
           <div class="footerBox1">© Copyright 2024 -</div>
           <div class="footerBox1">
              Developed by Mohammad Wazahat Ali Rza.

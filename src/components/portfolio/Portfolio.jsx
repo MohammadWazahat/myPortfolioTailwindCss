@@ -64,7 +64,7 @@ const Portfolio = () => {
     },
   ]);
   return (
-    <div>
+    <div className="flex flex-col bg-violet-900 text-gray-100">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
